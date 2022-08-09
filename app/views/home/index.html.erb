@@ -1,0 +1,13 @@
+<% if user_signed_in? %>
+<link rel="stylesheet" href="style.css">
+<div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <button id="resetBtn">Reset</button>
+    </div>
+    <script src="/app/javascript/snake.js">
+    
+    </script>
+<% else %>
+<p>Hello World!</p>
+<% end %>
